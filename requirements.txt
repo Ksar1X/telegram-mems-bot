@@ -1,0 +1,12 @@
+# ── Telegram Bot Framework ───────────────────────────────────────────────────
+aiogram
+pydantic-settings
+opencv-python
+numpy
+insightface
+onnxruntime
+Pillow
+aiofiles
+python-dotenv
+
+opencv-python
