@@ -3,13 +3,13 @@
 
   "backend": "insightface",
   "onnx_providers": ["CUDAExecutionProvider", "CPUExecutionProvider"],
-  "output_dir": "/tmp/stickers_out",
+  "output_dir": "temp_stickers",
 
   "templates": [
     {
-      "id": "distracted_boyfriend",
-      "name": "Distracted Boyfriend",
-      "path": "templates/distracted_boyfriend.png",
+      "id": "meme1",
+      "name": "My First Meme",
+      "path": "templates/meme1.gif",
       "face_region": {
         "_comment": "Используется только для 'simple' бэкенда. При insightface — автодетекция.",
         "x": 310,
@@ -18,54 +18,6 @@
         "h": 155
       },
       "emoji": "😏"
-    },
-    {
-      "id": "this_is_fine",
-      "name": "This Is Fine",
-      "path": "templates/this_is_fine.png",
-      "face_region": {
-        "x": 60,
-        "y": 90,
-        "w": 120,
-        "h": 120
-      },
-      "emoji": "🔥"
-    },
-    {
-      "id": "drake_no",
-      "name": "Drake Approves",
-      "path": "templates/drake.png",
-      "face_region": {
-        "x": 20,
-        "y": 30,
-        "w": 200,
-        "h": 200
-      },
-      "emoji": "👍"
-    },
-    {
-      "id": "gigachad",
-      "name": "Gigachad",
-      "path": "templates/gigachad.png",
-      "face_region": {
-        "x": 120,
-        "y": 40,
-        "w": 260,
-        "h": 280
-      },
-      "emoji": "💪"
-    },
-    {
-      "id": "math_lady",
-      "name": "Math Lady",
-      "path": "templates/math_lady.png",
-      "face_region": {
-        "x": 80,
-        "y": 60,
-        "w": 180,
-        "h": 190
-      },
-      "emoji": "🤔"
     }
   ]
 }
