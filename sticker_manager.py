@@ -1,7 +1,6 @@
 import logging
 from aiogram import Bot
 from aiogram.types import FSInputFile, InputSticker
-from aiogram.exceptions import TelegramBadRequest
 
 logger = logging.getLogger(__name__)
 
@@ -10,19 +9,21 @@ class StickerManager:
     def __init__(self, bot: Bot):
         self.bot = bot
 
-    async def create_or_update_pack(self, user_id: int, sticker_paths: list[str]) -> str:
+    async def create_or_update_pack(self, user_id: int, sticker_paths: list[dict]) -> str:
         bot_obj = await self.bot.get_me()
         bot_username = bot_obj.username
         name = f"user_{user_id}_by_{bot_username}"
-        title = f"Нейро-пак для пользователя {user_id}"
+        title = f"With love by @Create_memes_stickers_bot"
 
         input_stickers = []
-        for path in sticker_paths:
+        for item in sticker_paths:
+            path = item["path"]
+            emoji = item["emoji"]
             st_format = "video" if path.lower().endswith(".webm") else "static"
 
             input_stickers.append(InputSticker(
                 sticker=FSInputFile(path),
-                emoji_list=["✨"],
+                emoji_list=[emoji],  # Используем эмодзи из конфига!
                 format=st_format
             ))
 

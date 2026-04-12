@@ -17,7 +17,202 @@
         "w": 140,
         "h": 155
       },
+      "emoji": "😮"
+    },
+    {
+      "id": "meme2",
+      "name": "My Second Meme",
+      "path": "templates/meme2.gif",
+      "face_region": {
+        "_comment": "Используется только для 'simple' бэкенда. При insightface — автодетекция.",
+        "x": 310,
+        "y": 55,
+        "w": 140,
+        "h": 155
+      },
+      "emoji": "😢"
+    },
+    {
+      "id": "meme3",
+      "name": "My Third Meme",
+      "path": "templates/meme3.gif",
+      "face_region": {
+        "_comment": "Используется только для 'simple' бэкенда. При insightface — автодетекция.",
+        "x": 310,
+        "y": 55,
+        "w": 140,
+        "h": 155
+      },
+      "emoji": "😶"
+    },
+    {
+      "id": "meme4",
+      "name": "My Fourth Meme",
+      "path": "templates/meme4.gif",
+      "face_region": {
+        "_comment": "Используется только для 'simple' бэкенда. При insightface — автодетекция.",
+        "x": 310,
+        "y": 55,
+        "w": 140,
+        "h": 155
+      },
+      "emoji": "🤨"
+    },
+    {
+      "id": "meme5",
+      "name": "My Fifth Meme",
+      "path": "templates/meme5.gif",
+      "face_region": {
+        "_comment": "Используется только для 'simple' бэкенда. При insightface — автодетекция.",
+        "x": 310,
+        "y": 55,
+        "w": 140,
+        "h": 155
+      },
+      "emoji": "😎"
+    },
+    {
+      "id": "meme6",
+      "name": "My Sixth Meme",
+      "path": "templates/meme6.gif",
+      "face_region": {
+        "_comment": "Используется только для 'simple' бэкенда. При insightface — автодетекция.",
+        "x": 310,
+        "y": 55,
+        "w": 140,
+        "h": 155
+      },
+      "emoji": "🤷‍♂️"
+    },
+    {
+      "id": "meme7",
+      "name": "My Seventh Meme",
+      "path": "templates/meme7.gif",
+      "face_region": {
+        "_comment": "Используется только для 'simple' бэкенда. При insightface — автодетекция.",
+        "x": 310,
+        "y": 55,
+        "w": 140,
+        "h": 155
+      },
+      "emoji": "🤯"
+    },
+    {
+      "id": "meme8",
+      "name": "My Eighth Meme",
+      "path": "templates/meme8.gif",
+      "face_region": {
+        "_comment": "Используется только для 'simple' бэкенда. При insightface — автодетекция.",
+        "x": 310,
+        "y": 55,
+        "w": 140,
+        "h": 155
+      },
+      "emoji": "❤️"
+    },
+    {
+      "id": "meme9",
+      "name": "My Ninth Meme",
+      "path": "templates/meme9.gif",
+      "face_region": {
+        "_comment": "Используется только для 'simple' бэкенда. При insightface — автодетекция.",
+        "x": 310,
+        "y": 55,
+        "w": 140,
+        "h": 155
+      },
+      "emoji": "😊"
+    },
+    {
+      "id": "meme10",
+      "name": "My 10 Meme",
+      "path": "templates/meme10.gif",
+      "face_region": {
+        "_comment": "Используется только для 'simple' бэкенда. При insightface — автодетекция.",
+        "x": 310,
+        "y": 55,
+        "w": 140,
+        "h": 155
+      },
+      "emoji": "😁"
+    },
+    {
+      "id": "meme11",
+      "name": "My 11 Meme",
+      "path": "templates/meme11.gif",
+      "face_region": {
+        "_comment": "Используется только для 'simple' бэкенда. При insightface — автодетекция.",
+        "x": 310,
+        "y": 55,
+        "w": 140,
+        "h": 155
+      },
+      "emoji": "😎"
+    },
+    {
+      "id": "meme12",
+      "name": "My 12 Meme",
+      "path": "templates/meme12.gif",
+      "face_region": {
+        "_comment": "Используется только для 'simple' бэкенда. При insightface — автодетекция.",
+        "x": 310,
+        "y": 55,
+        "w": 140,
+        "h": 155
+      },
       "emoji": "😏"
+    },
+    {
+      "id": "meme13",
+      "name": "My 13 Meme",
+      "path": "templates/meme13.gif",
+      "face_region": {
+        "_comment": "Используется только для 'simple' бэкенда. При insightface — автодетекция.",
+        "x": 310,
+        "y": 55,
+        "w": 140,
+        "h": 155
+      },
+      "emoji": "🙌"
+    },
+    {
+      "id": "meme14",
+      "name": "My 14 Meme",
+      "path": "templates/meme14.gif",
+      "face_region": {
+        "_comment": "Используется только для 'simple' бэкенда. При insightface — автодетекция.",
+        "x": 310,
+        "y": 55,
+        "w": 140,
+        "h": 155
+      },
+      "emoji": "😐"
+    },
+    {
+      "id": "meme15",
+      "name": "My 15 Meme",
+      "path": "templates/meme15.gif",
+      "face_region": {
+        "_comment": "Используется только для 'simple' бэкенда. При insightface — автодетекция.",
+        "x": 310,
+        "y": 55,
+        "w": 140,
+        "h": 155
+      },
+      "emoji": "🙄"
+    },
+    {
+      "id": "meme16",
+      "name": "My 16 Meme",
+      "path": "templates/meme16.gif",
+      "face_region": {
+        "_comment": "Используется только для 'simple' бэкенда. При insightface — автодетекция.",
+        "x": 310,
+        "y": 55,
+        "w": 140,
+        "h": 155
+      },
+      "emoji": "😶‍🌫️"
     }
   ]
 }

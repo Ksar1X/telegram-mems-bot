@@ -17,7 +17,7 @@ class Settings(BaseSettings):
 
     # ── Очередь задач ────────────────────────────────────────────────────────
     QUEUE_MAX_SIZE: int = 20
-    WORKER_COUNT: int = 2
+    WORKER_COUNT: int = 4
 
     @property
     def TEMPLATES_CONFIG(self) -> dict:

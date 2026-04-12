@@ -48,11 +48,13 @@ class FaceSwapProcessor:
             # ПРОВЕРКА: если tpl - это просто строка (путь), превращаем её в нужный формат
             if isinstance(tpl, str):
                 tpl_path = Path(tpl)
-                tpl_id = tpl_path.stem  # Берем имя файла без расширения как ID
+                tpl_id = tpl_path.stem
+                tpl_emoji = "✨"# Берем имя файла без расширения как ID
             else:
                 # Если tpl - это словарь (как мы планировали ранее)
                 tpl_path = Path(tpl.get("path", ""))
                 tpl_id = tpl.get("id", "unknown")
+                tpl_emoji = tpl.get("emoji", "✨")
 
             if not tpl_path.exists():
                 logger.warning(f"Файл шаблона не найден: {tpl_path}")
@@ -73,7 +75,10 @@ class FaceSwapProcessor:
                     res_path = self._process_image(source_face, tpl_path, output_filename)
 
                 if res_path:
-                    output_paths.append(res_path)
+                    output_paths.append({
+                        "path": res_path,
+                        "emoji": tpl_emoji
+                    })
             except Exception as e:
                 logger.exception(f"Ошибка при обработке шаблона {tpl_id}: {e}")
 
@@ -105,7 +110,7 @@ class FaceSwapProcessor:
 
                 frames = []
                 # Ограничиваем до 60 кадров (примерно 3 сек при 20 FPS)
-                all_frames = [f.convert("RGB") for f in ImageSequence.Iterator(im)][:60]
+                all_frames = [f.convert("RGB") for f in ImageSequence.Iterator(im)][:30]
 
                 last_target_face = None
                 for frame_pil in all_frames:
